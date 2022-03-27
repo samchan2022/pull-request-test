@@ -35,5 +35,11 @@ def DNFS( arr ):
       high = high - 1
   return arr
 
+arr = [0, 2, 1, 0, 1, 1, 2]
 if __name__ == "__main__":
     print("Sorted Array:", DNFS(arr))
+
+# Runtime Test Cases:-
+# Test case 1.
+# Enter the list of numbers: 0 2 1 0 1 1 2
+# Sorted list: [0, 0, 1, 1, 1, 2, 2]
